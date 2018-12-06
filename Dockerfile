@@ -1,4 +1,4 @@
-FROM resin/raspberry-pi-alpine-node:8.5-slim
+FROM resin/raspberry-pi-alpine-node:8.5
 LABEL maintainer "vokov"
 
 RUN apk update && apk upgrade && \
