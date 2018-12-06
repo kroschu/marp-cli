@@ -1,5 +1,5 @@
-FROM node:10.13.0-alpine
-LABEL maintainer "Marp team"
+FROM resin/raspberry-pi-alpine-node
+LABEL maintainer "vokov"
 
 RUN apk update && apk upgrade && \
     echo @edge http://nl.alpinelinux.org/alpine/edge/community >> /etc/apk/repositories && \
