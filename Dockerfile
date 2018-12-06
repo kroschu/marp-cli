@@ -16,7 +16,8 @@ RUN apk update && apk upgrade && \
       font-noto-arabic@edge \
       font-noto-bengali@edge \
       font-ipa@edge \
-      nss@edge
+      nss@edge \
+      yarn
 
 RUN addgroup -S marp && adduser -S -g marp marp \
     && mkdir -p /home/marp/app /home/marp/.cli \
